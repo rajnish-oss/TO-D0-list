@@ -5,11 +5,13 @@
   "type": "module",
   "homepage": "https://github.com/rajnish-oss/TO-D0-list.git",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^18.3.1",
