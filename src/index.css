@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display:MORF@0..60&family=Playwrite+ES+Deco+Guides&family=Playwrite+VN:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Vinyl&family=Ysabeau+SC:wght@1..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#d7d7d7];
+}
+
+
